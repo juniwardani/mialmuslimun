@@ -1,0 +1,271 @@
+<html lang="id" class="scroll-smooth">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Program - MIS AL Muslimun</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+   rel="stylesheet"
+  />
+  <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+   rel="stylesheet"
+  />
+  <style>
+   body {
+    font-family: "Roboto", sans-serif;
+   }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-800">
+    <header class="bg-green-800 text-green-100 shadow-md fixed w-full z-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div class="flex justify-between items-center h-16">
+          <a class="flex items-center space-x-3" href="index.html">
+      <img
+       alt="Logo MIS AL Muslimun" 
+       class="h-16 w-16 object-contain"
+       height="64"
+       src="img/logo.png"
+       width="64"
+      />
+           <span class="text-2xl font-bold text-green-100">MIS AL Muslimun</span>
+          </a>
+          <nav class="hidden md:flex space-x-8 font-semibold text-green-100">
+           <a 
+             class="hover:text-green-300 transition" 
+             href="index.html"
+           >
+             Beranda
+           </a>
+           <a 
+             class="hover:text-green-300 transition" 
+             href="tentang.html"
+           >
+             Tentang Kami
+           </a>
+           <a 
+             class="hover:text-green-300 transition" 
+             href="program.html"
+           >
+             Program
+           </a>
+           <a 
+             class="hover:text-green-300 transition" 
+             href="berita.html"
+           >
+             Berita
+           </a>
+           <a 
+             class="hover:text-green-300 transition" 
+             href="artikel.html"
+           >
+             Artikel
+           </a>
+           <a 
+           aria-current="page"
+             class="hover:text-green-300 transition"
+           href="galeri.html"
+         >
+           Galeri
+         </a>
+           <a 
+             class="hover:text-green-300 transition" 
+             href="kontak.html"
+           >
+             Kontak
+           </a>
+          </nav>
+          <button
+           aria-label="Toggle menu"
+           class="md:hidden focus:outline-none focus:ring-2 focus:ring-green-300"
+           id="menu-btn"
+          >
+           <i class="fas fa-bars text-2xl text-green-100"></i>
+          </button>
+         </div>
+        </div>
+        <nav
+         aria-label="Mobile menu"
+         class="md:hidden bg-green-800 border-t border-green-700 hidden"
+         id="mobile-menu"
+        >
+         <a
+          class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+          href="index.html"
+         >
+          Beranda
+         </a>
+         <a
+          class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+          href="tentang.html"
+         >
+          Tentang Kami
+         </a>
+         <a
+          class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+          href="program.html"
+         >
+          Program
+         </a>
+         <a
+          class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+          href="berita.html"
+         >
+          Berita
+         </a>
+         <a
+          class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+          href="artikel.html"
+         >
+          Artikel
+         </a>
+         <a
+    class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+         href="galeri.html"
+        >
+         Galeri
+        </a>
+         <a
+          class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+          href="kontak.html"
+         >
+          Kontak
+         </a>
+        </nav>
+       </header>
+
+  <script>
+   const btn = document.getElementById("menu-btn");
+   const menu = document.getElementById("mobile-menu");
+
+   if (btn && menu) {
+    btn.addEventListener("click", () => {
+     menu.classList.toggle("hidden");
+    });
+   }
+  </script>
+
+  <main
+   class="pt-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white min-h-screen space-y-20"
+  >
+   <h1
+    class="text-5xl font-extrabold text-green-800 mb-12 text-center tracking-wide"
+   >
+    Program MIS AL Muslimun
+   </h1>
+
+   <section
+    tabindex="0"
+    class="bg-white border-b border-green-200 p-4 sm:p-6 cursor-pointer transform transition duration-300 hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-400 max-w-4xl mx-auto"
+    aria-label="Program Tahsin Al-Qur'an"
+   >
+    <div class="space-y-4">
+     <div class="flex items-center mb-3">
+      <i class="fas fa-book-open text-2xl text-green-600 mr-3"></i>
+      <h3 class="text-xl sm:text-2xl font-bold text-green-800">Program Tahsin Al-Qur'an</h3>
+     </div>
+     <div class="bg-white">
+      <p class="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 text-justify">
+        <span class="font-semibold text-green-700">MIS AL Muslimun</span> berkolaborasi dengan Lembaga Pendidikan Al-Quran Baitul Qur'an Al Muslimun dalam mengembangkan program unggulan pembelajaran Al-Qur'an yang berkualitas.
+      </p>
+      <p class="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 text-justify">
+        Program ini dirancang untuk memastikan setiap siswa dapat membaca Al-Qur'an dengan tartil menggunakan metode yang sistematis dan terarah. Pembelajaran dilakukan secara intensif dengan memperhatikan kaidah tajwid yang benar.
+      </p>
+      <a href="#" class="inline-flex items-center px-4 py-2 bg-green-600 text-white font-semibold rounded-lg shadow-sm hover:bg-green-700 transition duration-300">
+        <i class="fas fa-external-link-alt mr-2"></i>
+        Lihat Detail Program
+      </a>
+     </div>
+    </div>
+   </section>
+
+   <section
+    tabindex="0"
+    class="bg-white border-b border-green-200 p-4 sm:p-6 cursor-pointer transform transition duration-300 hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-400 max-w-4xl mx-auto"
+    aria-label="Kegiatan Pramuka"
+   >
+    <div class="space-y-4">
+     <div class="flex items-center mb-3">
+      <i class="fas fa-campground text-2xl text-green-600 mr-3"></i>
+      <h3 class="text-xl sm:text-2xl font-bold text-green-800">Kegiatan Pramuka</h3>
+     </div>
+     <div class="bg-white">
+      <p class="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 text-justify">
+        Kegiatan Pramuka di <span class="font-semibold text-green-700">MIS AL Muslimun</span> dirancang untuk membentuk karakter, kedisiplinan, dan jiwa kepemimpinan siswa. Melalui berbagai aktivitas outdoor dan indoor, siswa belajar tentang kemandirian, kerjasama tim, dan kepedulian terhadap lingkungan.
+      </p>
+      <p class="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 text-justify">
+        Program ini mencakup kegiatan seperti berkemah, latihan kepramukaan rutin, dan berbagai kegiatan sosial yang membangun soft skill dan hard skill siswa dalam berorganisasi.
+      </p>
+     </div>
+    </div>
+   </section>
+
+   <section
+    tabindex="0"
+    class="bg-white border-b border-green-200 p-4 sm:p-6 cursor-pointer transform transition duration-300 hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-400 max-w-4xl mx-auto"
+    aria-label="Program Komputer"
+   >
+    <div class="space-y-4">
+     <div class="flex items-center mb-3">
+      <i class="fas fa-laptop text-2xl text-green-600 mr-3"></i>
+      <h3 class="text-xl sm:text-2xl font-bold text-green-800">Program Komputer</h3>
+     </div>
+     <div class="bg-white">
+      <p class="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 text-justify">
+        <span class="font-semibold text-green-700">MIS AL Muslimun</span> memperkenalkan program komputer dasar yang fokus pada penggunaan Microsoft Word dan Microsoft Excel. Program ini dirancang untuk membekali siswa dengan keterampilan penggunaan aplikasi perkantoran yang paling sering digunakan.
+      </p>
+      <p class="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 text-justify">
+        Siswa akan belajar menggunakan Microsoft Word untuk membuat dokumen seperti surat, laporan, dan karya tulis sederhana. Selain itu, siswa juga akan diperkenalkan dengan Microsoft Excel untuk membuat tabel, mengolah data sederhana, dan membuat perhitungan dasar.
+      </p>
+     </div>
+    </div>
+   </section>
+
+  </main>
+
+  <footer class="bg-green-800 text-green-100 py-8 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">MIS AL Muslimun</h3>
+          <p class="mb-2" style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-map-marker-alt"></i>
+            Alamat: Jl. Mufakat Mandin Desa Semayap
+          </p>
+          <p class="mb-2" style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-envelope"></i>
+            Email: mis.almuslimun@gmail.com
+          </p>
+          <p class="mb-2" style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-phone"></i>
+            Telp:  (+62) 812-5635-9850
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-4">Media Sosial</h3>
+          <div style="display: flex; gap: 1rem;">
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 pt-4 border-t border-green-700 text-center">
+        <p>&copy; 2024 MIS AL Muslimun. Semua hak cipta dilindungi undang-undang.</p>
+      </div>
+    </div>
+  </footer>
+ </body>
+</html>

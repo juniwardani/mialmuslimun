@@ -1,0 +1,583 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Beranda - MI Al Muslimun</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+   rel="stylesheet"
+  />
+  <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+   rel="stylesheet"
+  />
+  <style>
+   body {
+    font-family: "Roboto", sans-serif;
+   }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-800">
+  <header class="bg-green-800 text-green-100 shadow-md fixed w-full z-30">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+     <a class="flex items-center space-x-3" href="index.html">
+      <img
+       alt="Logo MI Al Muslimun, green and gold emblem with Islamic calligraphy" 
+       class="h-16 w-16 object-contain"
+       height="64"
+       src="img/logo.png"
+       width="64"
+      />
+      <span class="text-2xl font-bold text-green-100">MI Al Muslimun</span>
+     </a>
+     <nav class="hidden md:flex space-x-8 font-semibold text-green-100">
+       <a 
+         class="hover:text-green-300 transition" 
+         href="index.html"
+       >
+         Beranda
+       </a>
+       <a 
+         class="hover:text-green-300 transition" 
+         href="tentang.html"
+       >
+         Tentang Kami
+       </a>
+       <a 
+         class="hover:text-green-300 transition" 
+         href="program.html"
+       >
+         Program
+       </a>
+       <a 
+         class="hover:text-green-300 transition" 
+         href="berita.html"
+       >
+         Berita
+       </a>
+       <a 
+         class="hover:text-green-300 transition" 
+         href="artikel.html"
+       >
+         Artikel
+       </a>
+      <a
+       aria-current="page"
+         class="hover:text-green-300 transition"
+       href="galeri.html"
+     >
+       Galeri
+     </a>
+       <a 
+         class="hover:text-green-300 transition" 
+         href="kontak.html"
+       >
+         Kontak
+       </a>
+     </nav>
+     <button
+      aria-label="Toggle menu"
+      class="md:hidden focus:outline-none focus:ring-2 focus:ring-green-300"
+      id="menu-btn"
+     >
+      <i class="fas fa-bars text-2xl text-green-100"></i>
+     </button>
+    </div>
+   </div>
+   <nav
+    aria-label="Mobile menu"
+    class="md:hidden bg-green-800 border-t border-green-700 hidden"
+    id="mobile-menu"
+   >
+    <a
+      class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+      href="index.html"
+    >
+      Beranda
+     </a>
+    <a
+     class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+      href="tentang.html"
+    >
+      Tentang Kami
+     </a>
+    <a
+     class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+     href="program.html"
+    >
+      Program
+     </a>
+    <a
+     class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+      href="berita.html"
+    >
+      Berita
+     </a>
+    <a
+     class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+      href="artikel.html"
+    >
+      Artikel
+     </a>
+    <a
+class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+     href="galeri.html"
+    >
+     Galeri
+    </a>
+     <a
+      class="block px-4 py-3 border-b border-green-700 text-green-100 font-semibold hover:bg-green-700"
+      href="kontak.html"
+     >
+      Kontak
+     </a>
+   </nav>
+  </header>
+
+  <main class="pt-20">
+   <!-- Hero Section -->
+   <section
+    aria-label="Hero section with MI Al Muslimun introduction"
+    class="relative bg-green-900 text-green-50 overflow-hidden"
+    id="home"
+   >
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center min-h-[calc(100vh-4rem)] py-20"
+     >
+      <div class="space-y-8">
+       <h1
+        class="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight"
+       >
+        Selamat Datang di
+        <br />
+        <span class="text-yellow-400">MI Al Muslimun</span>
+       </h1>
+       <p class="text-lg sm:text-xl max-w-xl leading-relaxed text-green-200 text-justify">
+        MI Al Muslimun adalah lembaga pendidikan Islam yang berkomitmen untuk memberikan pendidikan berkualitas dengan memadukan nilai-nilai Islam dan standar pendidikan nasional. Berkolaborasi dengan Lembaga Pendidikan Al-Quran Baitul Qur'an Al Muslimun, kami mengembangkan program pembelajaran komprehensif seperti Tahsin Al-Qur'an, kegiatan Pramuka, dan program pembelajaran komputer. Kami fokus pada pembentukan karakter siswa yang berakhlak mulia, cerdas, dan siap menghadapi tantangan masa depan.
+       </p>
+       <div class="flex flex-wrap gap-4">
+        <a
+         class="inline-flex items-center justify-center px-6 py-3 bg-yellow-400 text-green-900 font-semibold rounded-md shadow-md hover:bg-yellow-300 transition"
+         href="program.html"
+         >Lihat Program</a
+        >
+        <a
+         class="inline-flex items-center justify-center px-6 py-3 border border-yellow-400 text-yellow-400 font-semibold rounded-md hover:bg-yellow-400 hover:text-green-900 transition"
+         href="#contact"
+         >Hubungi Kami</a
+        >
+       </div>
+      </div>
+      <div class="relative w-full max-w-md mx-auto md:mx-0">
+       <video
+        class="rounded-lg shadow-lg object-cover w-full h-80 sm:h-96"
+        height="400"
+        width="600"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="img/logo.png"
+       >
+        <source src="img/nu.mp4" type="video/mp4" />
+        Browser Anda tidak mendukung video.
+       </video>
+       <div
+        class="absolute bottom-4 right-4 bg-green-800 bg-opacity-70 text-yellow-400 px-3 py-1 rounded-md text-sm font-semibold"
+       >
+        MI Al Muslimun
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- About Section -->
+   <section
+    aria-label="About section"
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10"
+    id="about"
+   >
+    <h2
+      class="text-3xl font-extrabold text-green-800 mb-6 border-b-4 border-green-700 inline-block tracking-wide text-center"
+    >
+     Tentang Kami
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+     <div>
+<p class="text-gray-700 text-lg leading-relaxed text-justify">
+  <p class="text-gray-700 text-lg leading-relaxed text-justify"><strong>MIS AL Muslimun</strong> aktif menyelenggarakan berbagai program pendidikan yang komprehensif, meliputi pembelajaran akademik, pembinaan akhlak, dan pengembangan bakat siswa. Dengan kurikulum yang terintegrasi, kami memadukan standar pendidikan nasional dengan nilai-nilai Islam untuk membentuk karakter siswa yang unggul dalam prestasi dan akhlak.</p>
+</p>
+<p class="mt-4 text-gray-700 text-lg leading-relaxed text-justify">
+  <p class="mt-4 text-gray-700 text-lg leading-relaxed text-justify">Didukung oleh tenaga pendidik yang profesional dan fasilitas pembelajaran yang memadai, MIS AL Muslimun terus berkomitmen mengembangkan potensi setiap siswa secara optimal. Melalui berbagai program unggulan dan kegiatan ekstrakurikuler, kami mempersiapkan siswa untuk menjadi generasi yang siap menghadapi tantangan masa depan dengan bekal ilmu pengetahuan dan nilai-nilai Islam yang kuat.</p>
+</p>
+      <a
+       class="inline-block mt-6 px-6 py-3 bg-green-700 text-green-100 font-semibold rounded-md shadow-md hover:bg-green-600 transition"
+       href="tentang.html"
+       >Pelajari Lebih Lanjut</a
+      >
+     </div>
+     <div>
+      <img
+       alt="School building and students engaging in learning activities"
+       class="rounded-lg shadow-lg object-cover w-full h-80 sm:h-96"
+       height="400"
+       src="photo/photo_55.jpeg"
+       width="600"
+      />
+     </div>
+    </div>
+   </section>
+   <!-- Programs Preview Section -->
+   <section
+    aria-label="Preview of our programs"
+    class="bg-green-50 py-16"
+    id="programs"
+   >
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+     <h2
+      class="text-3xl font-extrabold text-green-800 mb-6 border-b-4 border-green-700 inline-block tracking-wide text-center"
+     >
+      Program Unggulan Kami
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+       <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+         <div class="flex items-center mb-4">
+           <i class="fas fa-book-open text-3xl text-green-600 mr-3"></i>
+           <h3 class="text-xl font-bold text-green-800">Program Tahsin Al-Qur'an</h3>
+         </div>
+         <p class="text-gray-700 mb-4 text-justify">
+           Berkolaborasi dengan Lembaga Pendidikan Al-Quran Baitul Qur'an Al Muslimun dalam mengembangkan program pembelajaran Al-Qur'an yang berkualitas dan terarah.
+         </p>
+       </div>
+       
+       <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+         <div class="flex items-center mb-4">
+           <i class="fas fa-campground text-3xl text-green-600 mr-3"></i>
+           <h3 class="text-xl font-bold text-green-800">Kegiatan Pramuka</h3>
+         </div>
+         <p class="text-gray-700 mb-4 text-justify">
+           Program yang dirancang untuk membentuk karakter, kedisiplinan, dan jiwa kepemimpinan siswa melalui berbagai aktivitas outdoor dan indoor.
+         </p>
+       </div>
+       
+       <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+         <div class="flex items-center mb-4">
+           <i class="fas fa-laptop text-3xl text-green-600 mr-3"></i>
+           <h3 class="text-xl font-bold text-green-800">Program Komputer</h3>
+         </div>
+         <p class="text-gray-700 mb-4 text-justify">
+           Memperkenalkan program komputer dasar yang fokus pada penggunaan Microsoft Word dan Microsoft Excel untuk membekali siswa dengan keterampilan aplikasi perkantoran.
+         </p>
+       </div>
+     </div>
+     
+     <div class="text-center mt-8">
+       <a href="program.html" class="inline-block px-8 py-3 bg-green-700 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition duration-300">
+         <i class="fas fa-arrow-right mr-2"></i>Lihat Semua Program
+       </a>
+     </div>
+    </div>
+   </section>
+   <!-- News Section -->
+   <section
+    aria-label="Latest news"
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8"
+    id="news"
+   >
+    <h2
+    class="text-3xl font-extrabold text-green-800 mb-6 border-b-4 border-green-700 inline-block tracking-wide text-center"
+    >
+     Berita Terbaru
+    </h2>
+    <div
+     id="news-list"
+     class="grid grid-cols-1 md:grid-cols-3 gap-8"
+    ></div>
+    <div class="text-center">
+     <a
+      href="berita.html"
+      class="inline-block mt-4 px-8 py-3 bg-yellow-400 text-green-900 font-semibold rounded-md shadow-md hover:bg-yellow-300 transition"
+      >Lihat Selengkapnya</a
+     >
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <section
+    aria-label="Contact section"
+    class="bg-green-900 text-green-50 py-16 px-4 sm:px-6 lg:px-8"
+    id="contact"
+   >
+    <div class="max-w-4xl mx-auto space-y-8">
+     <h2
+      class="text-3xl font-extrabold border-b-4 border-yellow-400 inline-block tracking-wide"
+     >
+      Hubungi Kami
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div class="space-y-4">
+       <div class="flex items-center space-x-4">
+        <i class="fas fa-map-marker-alt text-yellow-400 text-xl"></i>
+        <address class="not-italic text-green-200">
+     Alamat: Jl. Mufakat Mandin Desa Semayap
+        </address>
+       </div>
+       <div class="flex items-center space-x-4">
+        <i class="fas fa-phone-alt text-yellow-400 text-xl"></i>
+        <a
+         class="text-green-200 hover:text-yellow-400 transition"
+         href="tel:+628123456789"
+         > Telp:  (+62) 812-5635-9850</a
+        >
+       </div>
+       <div class="flex items-center space-x-4">
+        <i class="fas fa-envelope text-yellow-400 text-xl"></i>
+        <a
+         class="text-green-200 hover:text-yellow-400 transition"
+         href="mailto:mis.almuslimun@gmail.com"
+         >Email: mis.almuslimun@gmail.com</a
+        >
+       </div>
+      </div>
+      <form
+       action="#"
+       aria-label="Contact form"
+       class="space-y-6 bg-green-800 p-6 rounded-lg shadow-lg"
+       method="POST"
+      >
+       <div>
+        <label class="block mb-1 font-semibold" for="name">Nama</label>
+        <input
+         class="w-full rounded-md border border-green-600 bg-green-700 text-green-50 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+         id="name"
+         name="name"
+         required
+         type="text"
+        />
+       </div>
+       <div>
+        <label class="block mb-1 font-semibold" for="email">Email</label>
+        <input
+         class="w-full rounded-md border border-green-600 bg-green-700 text-green-50 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+         id="email"
+         name="email"
+         required
+         type="email"
+        />
+       </div>
+       <div>
+        <label class="block mb-1 font-semibold" for="message">Pesan</label>
+        <textarea
+         class="w-full rounded-md border border-green-600 bg-green-700 text-green-50 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+         id="message"
+         name="message"
+         required
+         rows="4"
+        ></textarea>
+       </div>
+       <button
+        class="w-full bg-yellow-400 text-green-900 font-semibold py-3 rounded-md shadow-md hover:bg-yellow-300 transition"
+        type="submit"
+       >
+        Kirim Pesan
+       </button>
+      </form>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-green-800 text-green-100 py-8 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">MI Al Muslimun</h3>
+          <p class="mb-2" style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-map-marker-alt"></i>
+            Alamat: Jl. Mufakat Mandin Desa Semayap
+          </p>
+          <p class="mb-2" style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-envelope"></i>
+            Email: kotabaru@nu.or.id
+          </p>
+          <p class="mb-2" style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-phone"></i>
+            Telp:  (+62) 812-5635-9850
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-4">Media Sosial</h3>
+          <div style="display: flex; gap: 1rem;">
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-green-100 hover:text-green-300 transition" style="font-size: 1.5rem;">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 pt-4 border-t border-green-700 text-center">
+        <p>&copy; 2024 MIS AL Muslimun. Semua hak cipta dilindungi undang-undang.</p>
+      </div>
+    </div>
+  </footer>
+ </body>
+   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+   <script>
+   // Inisialisasi Supabase client
+   const supabaseUrl = 'https://iwnwqcxigtywetgcmlou.supabase.co'
+   const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml3bndxY3hpZ3R5d2V0Z2NtbG91Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU4MjQ4MTUsImV4cCI6MjA1MTQwMDgxNX0.fjdJlTVav4Gm8ku9rBmRuLoae5ViFxas7Uu069ItfnY'
+   const supabase = window.supabase.createClient(supabaseUrl, supabaseKey)
+
+   // Fungsi untuk menampilkan notifikasi
+   function showNotification(message, type = 'success') {
+       const notification = document.createElement('div');
+       notification.className = `fixed top-4 right-4 px-6 py-3 rounded-lg shadow-lg text-white font-semibold z-50 ${
+           type === 'success' ? 'bg-green-600' : 'bg-red-600'
+       }`;
+       notification.textContent = message;
+       document.body.appendChild(notification);
+       
+       setTimeout(() => {
+           notification.remove();
+       }, 3000);
+   }
+
+   // Fungsi untuk mengirim pesan ke Supabase
+   async function sendMessage(event) {
+       event.preventDefault();
+       
+       const name = document.getElementById('name').value;
+       const email = document.getElementById('email').value;
+       const message = document.getElementById('message').value;
+       
+       try {
+           const { data, error } = await supabase
+               .from('messages')
+               .insert([
+                   {
+                       name: name,
+                       email: email,
+                       message: message,
+                       created_at: new Date().toISOString()
+                   }
+               ]);
+               
+           if (error) throw error;
+           
+           // Reset form
+           event.target.reset();
+           
+           // Tampilkan notifikasi sukses
+           showNotification('Pesan Anda berhasil terkirim!');
+           
+       } catch (error) {
+           console.error('Error:', error);
+           showNotification('Terjadi kesalahan saat mengirim pesan', 'error');
+       }
+   }
+
+   const btn = document.getElementById("menu-btn");
+   const menu = document.getElementById("mobile-menu");
+
+   if (btn && menu) {
+    btn.addEventListener("click", () => {
+     menu.classList.toggle("hidden");
+    });
+   }
+
+   // Event listener untuk form kontak
+   document.addEventListener('DOMContentLoaded', function() {
+       const form = document.querySelector('form');
+       if (form) {
+           form.addEventListener('submit', sendMessage);
+       }
+   });
+
+   // Function to render news
+   async function renderNews() {
+    const container = document.getElementById("news-list");
+    container.innerHTML = "";
+
+    try {
+      const { data, error } = await supabase
+        .from('berita')
+        .select('*')
+        .order('tanggal', { ascending: false })
+        .limit(3);
+
+      if (error) throw error;
+
+      if (data.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-3 text-center text-gray-600">
+            Tidak ada berita yang tersedia.
+          </div>
+        `;
+        return;
+      }
+
+      data.forEach((item) => {
+        const article = document.createElement("article");
+        article.setAttribute(
+          "class",
+          "bg-white border border-green-300 rounded-lg shadow-md overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-green-400"
+        );
+        article.setAttribute("tabindex", "0");
+
+        const img = document.createElement("img");
+        img.src = item.gambar_url || "img/logo.png";
+        img.alt = item.judul;
+        img.className = "w-full h-40 object-cover";
+        img.height = 250;
+        img.width = 400;
+
+        const div = document.createElement("div");
+        div.className = "p-5";
+
+        const h3 = document.createElement("h3");
+        h3.className = "font-semibold text-green-700 mb-2 text-lg";
+        h3.textContent = item.judul;
+
+        const p = document.createElement("p");
+        p.className = "text-gray-700 text-sm";
+        // Strip HTML tags and limit text length
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = item.konten;
+        let textContent = tempDiv.textContent || tempDiv.innerText || "";
+        if (textContent.length > 100) {
+          textContent = textContent.slice(0, 100) + "...";
+        }
+        p.textContent = textContent;
+
+        div.appendChild(h3);
+        div.appendChild(p);
+        article.appendChild(img);
+        article.appendChild(div);
+        container.appendChild(article);
+      });
+    } catch (error) {
+      console.error('Error:', error);
+      container.innerHTML = `
+        <div class="col-span-3 text-center text-red-600">
+          Terjadi kesalahan saat memuat berita.
+        </div>
+      `;
+    }
+   }
+
+   // Render on DOMContentLoaded
+   document.addEventListener("DOMContentLoaded", () => {
+    renderNews();
+   });
+  </script>
+</html>
